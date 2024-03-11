@@ -1,0 +1,1440 @@
+2024-02-17 03:22:06.157 [32m INFO[m [35m127568[m --- [           main] []
+            [36mj.v.b.BackendApplication                [m:Starting BackendApplication v0.0.1-SNAPSHOT using Java 20.0.2 with PID 127568 (C:\Users\USER\Desktop\joouu-main\bin\backend-0.0.1-SNAPSHOT.jar started by USER in C:\Users\USER\Desktop\joouu-main\bin)
+2024-02-17 03:22:06.178 [32m INFO[m [35m127568[m --- [           main] []
+            [36mj.v.b.BackendApplication                [m:No active profile set, falling back to 1 default profile: "default"
+2024-02-17 03:22:08.217 [32m INFO[m [35m127568[m --- [           main] []
+            [36m.s.d.r.c.RepositoryConfigurationDelegate[m:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-17 03:22:08.349 [32m INFO[m [35m127568[m --- [           main] []
+            [36m.s.d.r.c.RepositoryConfigurationDelegate[m:Finished Spring Data repository scanning in 121 ms. Found 5 JPA repository interfaces.
+2024-02-17 03:22:10.360 [32m INFO[m [35m127568[m --- [           main] []
+            [36mo.s.b.w.e.t.TomcatWebServer             [m:Tomcat initialized with port 5001 (http)
+2024-02-17 03:22:10.371 [32m INFO[m [35m127568[m --- [           main] []
+            [36mo.a.c.h.Http11NioProtocol               [m:Initializing ProtocolHandler ["http-nio-5001"]
+2024-02-17 03:22:10.375 [32m INFO[m [35m127568[m --- [           main] []
+            [36mo.a.c.c.StandardService                 [m:Starting service [Tomcat]
+2024-02-17 03:22:10.376 [32m INFO[m [35m127568[m --- [           main] []
+            [36mo.a.c.c.StandardEngine                  [m:Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-02-17 03:22:10.473 [32m INFO[m [35m127568[m --- [           main] []
+            [36mo.a.c.c.C.[.[.[/]                       [m:Initializing Spring embedded WebApplicationContext
+2024-02-17 03:22:10.476 [32m INFO[m [35m127568[m --- [           main] []
+            [36mw.s.c.ServletWebServerApplicationContext[m:Root WebApplicationContext: initialization completed in 4155 ms
+2024-02-17 03:22:12.172 [32m INFO[m [35m127568[m --- [           main] []
+            [36mo.h.j.i.u.LogHelper                     [m:HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-17 03:22:12.301 [32m INFO[m [35m127568[m --- [           main] []
+            [36mo.h.Version                             [m:HHH000412: Hibernate ORM core version 6.3.1.Final
+2024-02-17 03:22:12.385 [32m INFO[m [35m127568[m --- [           main] []
+            [36mo.h.c.i.RegionFactoryInitiator          [m:HHH000026: Second-level cache disabled
+2024-02-17 03:22:12.773 [32m INFO[m [35m127568[m --- [           main] []
+            [36mc.z.h.HikariDataSource                  [m:HikariPool-1 - Starting...
+2024-02-17 03:22:13.320 [32m INFO[m [35m127568[m --- [           main] []
+            [36mc.z.h.p.HikariPool                      [m:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7a247711
+2024-02-17 03:22:13.325 [32m INFO[m [35m127568[m --- [           main] []
+            [36mc.z.h.HikariDataSource                  [m:HikariPool-1 - Start completed.
+2024-02-17 03:22:14.020 [32m INFO[m [35m127568[m --- [           main] []
+            [36mo.s.o.j.p.SpringPersistenceUnitInfo     [m:No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-17 03:22:15.993 [32m INFO[m [35m127568[m --- [           main] []
+            [36mo.h.e.t.j.p.i.JtaPlatformInitiator      [m:HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-17 03:22:16.013 [33m WARN[m [35m127568[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 03:22:16.014 [33m WARN[m [35m127568[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"menu" 릴레이션 없음, 건너뜀
+2024-02-17 03:22:16.016 [33m WARN[m [35m127568[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 03:22:16.016 [33m WARN[m [35m127568[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"reservation" 릴레이션 없음, 건너뜀
+2024-02-17 03:22:16.017 [33m WARN[m [35m127568[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 03:22:16.018 [33m WARN[m [35m127568[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"reservation" 릴레이션 없음, 건너뜀
+2024-02-17 03:22:16.019 [33m WARN[m [35m127568[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 03:22:16.020 [33m WARN[m [35m127568[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"review" 릴레이션 없음, 건너뜀
+2024-02-17 03:22:16.022 [33m WARN[m [35m127568[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 03:22:16.023 [33m WARN[m [35m127568[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"menu" 테이블 없음, 무시함
+2024-02-17 03:22:16.025 [33m WARN[m [35m127568[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 03:22:16.025 [33m WARN[m [35m127568[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"reservation" 테이블 없음, 무시함
+2024-02-17 03:22:16.027 [33m WARN[m [35m127568[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 03:22:16.027 [33m WARN[m [35m127568[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"review" 테이블 없음, 무시함
+2024-02-17 03:22:16.028 [33m WARN[m [35m127568[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 03:22:16.029 [33m WARN[m [35m127568[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"shop" 테이블 없음, 무시함
+2024-02-17 03:22:16.030 [33m WARN[m [35m127568[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 03:22:16.031 [33m WARN[m [35m127568[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"user" 테이블 없음, 무시함
+2024-02-17 03:22:16.137 [32m INFO[m [35m127568[m --- [           main] []
+            [36mj.LocalContainerEntityManagerFactoryBean[m:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-17 03:22:18.871 [32m INFO[m [35m127568[m --- [           main] []
+            [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [m:Adding welcome page: class path resource [static/index.html]
+2024-02-17 03:22:19.922 [33m WARN[m [35m127568[m --- [           main] []
+            [36mion$DefaultTemplateResolverConfiguration[m:Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-02-17 03:22:20.611 [32m INFO[m [35m127568[m --- [           main] []
+            [36mo.s.b.a.e.w.EndpointLinksResolver       [m:Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-02-17 03:22:20.897 [32m INFO[m [35m127568[m --- [           main] []
+            [36mo.a.c.h.Http11NioProtocol               [m:Starting ProtocolHandler ["http-nio-5001"]
+2024-02-17 03:22:20.943 [32m INFO[m [35m127568[m --- [           main] []
+            [36mo.s.b.w.e.t.TomcatWebServer             [m:Tomcat started on port 5001 (http) with context path ''
+2024-02-17 03:22:20.961 [32m INFO[m [35m127568[m --- [           main] []
+            [36mj.v.b.BackendApplication                [m:Started BackendApplication in 15.848 seconds (process running for 17.211)
+2024-02-17 03:22:21.451 [32m INFO[m [35m127568[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop1_1_Thhx.jpg
+2024-02-17 03:22:21.457 [32m INFO[m [35m127568[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop1_2_8R8q.jpg
+2024-02-17 03:22:21.487 [32m INFO[m [35m127568[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop2_1_M9gd.png
+2024-02-17 03:22:21.499 [32m INFO[m [35m127568[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop2_2_TiEr.png
+2024-02-17 03:22:21.507 [32m INFO[m [35m127568[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop3_1_3D8p.jpg
+2024-02-17 03:22:21.512 [32m INFO[m [35m127568[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop3_2_TG92.jpg
+2024-02-17 03:22:21.521 [32m INFO[m [35m127568[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop4_1_9I27.jpg
+2024-02-17 03:22:21.525 [32m INFO[m [35m127568[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop4_2_mNFR.jpg
+2024-02-17 03:22:21.535 [32m INFO[m [35m127568[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu1_lA4s.jpg
+2024-02-17 03:22:21.588 [32m INFO[m [35m127568[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu2_foMz.jpg
+2024-02-17 03:22:21.596 [32m INFO[m [35m127568[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu3_yVdC.jpg
+2024-02-17 03:22:21.604 [32m INFO[m [35m127568[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu4_Q7ah.jpg
+2024-02-17 03:22:21.613 [32m INFO[m [35m127568[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu5_oeWF.png
+2024-02-17 03:22:21.621 [32m INFO[m [35m127568[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu6_ucUo.jpg
+2024-02-17 03:22:21.632 [32m INFO[m [35m127568[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu7_XmlF.jpg
+2024-02-17 03:22:21.640 [32m INFO[m [35m127568[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu8_2JMg.jpg
+2024-02-17 03:22:21.647 [32m INFO[m [35m127568[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu9_qLxV.jpg
+2024-02-17 03:22:21.655 [32m INFO[m [35m127568[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu10_XMAy.jpg
+2024-02-17 03:22:21.663 [32m INFO[m [35m127568[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu11_B4Sj.jpg
+2024-02-17 03:22:21.669 [32m INFO[m [35m127568[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu12_vpzr.jpg
+2024-02-17 03:22:21.678 [32m INFO[m [35m127568[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_review\review1_rNZB.jpg
+2024-02-17 03:22:21.696 [32m INFO[m [35m127568[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_review\review2_eu9F.jpg
+2024-02-17 03:22:21.707 [32m INFO[m [35m127568[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_review\review3_D19u.jpg
+2024-02-17 03:22:21.716 [32m INFO[m [35m127568[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_review\review4_ITjm.jpg
+2024-02-17 03:22:21.725 [32m INFO[m [35m127568[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_review\review5_2bqa.jpg
+2024-02-17 03:25:30.257 [32m INFO[m [35m128552[m --- [           main] []
+            [36mj.v.b.BackendApplication                [m:Starting BackendApplication v0.0.1-SNAPSHOT using Java 20.0.2 with PID 128552 (C:\Users\USER\Desktop\joouu-main\bin\backend-0.0.1-SNAPSHOT.jar started by USER in C:\Users\USER\Desktop\joouu-main\bin)
+2024-02-17 03:25:30.276 [32m INFO[m [35m128552[m --- [           main] []
+            [36mj.v.b.BackendApplication                [m:No active profile set, falling back to 1 default profile: "default"
+2024-02-17 03:25:31.269 [32m INFO[m [35m128552[m --- [           main] []
+            [36m.s.d.r.c.RepositoryConfigurationDelegate[m:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-17 03:25:31.340 [32m INFO[m [35m128552[m --- [           main] []
+            [36m.s.d.r.c.RepositoryConfigurationDelegate[m:Finished Spring Data repository scanning in 64 ms. Found 5 JPA repository interfaces.
+2024-02-17 03:25:32.725 [32m INFO[m [35m128552[m --- [           main] []
+            [36mo.s.b.w.e.t.TomcatWebServer             [m:Tomcat initialized with port 5001 (http)
+2024-02-17 03:25:32.736 [32m INFO[m [35m128552[m --- [           main] []
+            [36mo.a.c.h.Http11NioProtocol               [m:Initializing ProtocolHandler ["http-nio-5001"]
+2024-02-17 03:25:32.739 [32m INFO[m [35m128552[m --- [           main] []
+            [36mo.a.c.c.StandardService                 [m:Starting service [Tomcat]
+2024-02-17 03:25:32.740 [32m INFO[m [35m128552[m --- [           main] []
+            [36mo.a.c.c.StandardEngine                  [m:Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-02-17 03:25:32.805 [32m INFO[m [35m128552[m --- [           main] []
+            [36mo.a.c.c.C.[.[.[/]                       [m:Initializing Spring embedded WebApplicationContext
+2024-02-17 03:25:32.807 [32m INFO[m [35m128552[m --- [           main] []
+            [36mw.s.c.ServletWebServerApplicationContext[m:Root WebApplicationContext: initialization completed in 2446 ms
+2024-02-17 03:25:33.930 [32m INFO[m [35m128552[m --- [           main] []
+            [36mo.h.j.i.u.LogHelper                     [m:HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-17 03:25:34.078 [32m INFO[m [35m128552[m --- [           main] []
+            [36mo.h.Version                             [m:HHH000412: Hibernate ORM core version 6.3.1.Final
+2024-02-17 03:25:34.189 [32m INFO[m [35m128552[m --- [           main] []
+            [36mo.h.c.i.RegionFactoryInitiator          [m:HHH000026: Second-level cache disabled
+2024-02-17 03:25:34.423 [32m INFO[m [35m128552[m --- [           main] []
+            [36mc.z.h.HikariDataSource                  [m:HikariPool-1 - Starting...
+2024-02-17 03:25:34.788 [32m INFO[m [35m128552[m --- [           main] []
+            [36mc.z.h.p.HikariPool                      [m:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3856d0cb
+2024-02-17 03:25:34.790 [32m INFO[m [35m128552[m --- [           main] []
+            [36mc.z.h.HikariDataSource                  [m:HikariPool-1 - Start completed.
+2024-02-17 03:25:35.084 [32m INFO[m [35m128552[m --- [           main] []
+            [36mo.s.o.j.p.SpringPersistenceUnitInfo     [m:No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-17 03:25:36.261 [32m INFO[m [35m128552[m --- [           main] []
+            [36mo.h.e.t.j.p.i.JtaPlatformInitiator      [m:HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-17 03:25:36.388 [32m INFO[m [35m128552[m --- [           main] []
+            [36mj.LocalContainerEntityManagerFactoryBean[m:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-17 03:25:37.908 [32m INFO[m [35m128552[m --- [           main] []
+            [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [m:Adding welcome page: class path resource [static/index.html]
+2024-02-17 03:25:38.906 [33m WARN[m [35m128552[m --- [           main] []
+            [36mion$DefaultTemplateResolverConfiguration[m:Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-02-17 03:25:39.576 [32m INFO[m [35m128552[m --- [           main] []
+            [36mo.s.b.a.e.w.EndpointLinksResolver       [m:Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-02-17 03:25:39.774 [32m INFO[m [35m128552[m --- [           main] []
+            [36mo.a.c.h.Http11NioProtocol               [m:Starting ProtocolHandler ["http-nio-5001"]
+2024-02-17 03:25:39.798 [33m WARN[m [35m128552[m --- [           main] []
+            [36mConfigServletWebServerApplicationContext[m:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-02-17 03:25:39.807 [32m INFO[m [35m128552[m --- [           main] []
+            [36mj.LocalContainerEntityManagerFactoryBean[m:Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-17 03:25:39.863 [32m INFO[m [35m128552[m --- [           main] []
+            [36mc.z.h.HikariDataSource                  [m:HikariPool-1 - Shutdown initiated...
+2024-02-17 03:25:39.873 [32m INFO[m [35m128552[m --- [           main] []
+            [36mc.z.h.HikariDataSource                  [m:HikariPool-1 - Shutdown completed.
+2024-02-17 03:25:39.933 [32m INFO[m [35m128552[m --- [           main] []
+            [36m.s.b.a.l.ConditionEvaluationReportLogger[m:
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-02-17 03:25:40.049 [31mERROR[m [35m128552[m --- [           main] []
+            [36mo.s.b.d.LoggingFailureAnalysisReporter  [m:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 5001 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 5001 or configure this application to listen on another port.
+
+2024-02-17 03:27:45.769 [32m INFO[m [35m135064[m --- [           main] []
+            [36mj.v.b.BackendApplication                [m:Starting BackendApplication v0.0.1-SNAPSHOT using Java 20.0.2 with PID 135064 (C:\Users\USER\Desktop\joouu-main\bin\backend-0.0.1-SNAPSHOT.jar started by USER in C:\Users\USER\Desktop\joouu-main\bin)
+2024-02-17 03:27:45.790 [32m INFO[m [35m135064[m --- [           main] []
+            [36mj.v.b.BackendApplication                [m:No active profile set, falling back to 1 default profile: "default"
+2024-02-17 03:27:46.884 [32m INFO[m [35m135064[m --- [           main] []
+            [36m.s.d.r.c.RepositoryConfigurationDelegate[m:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-17 03:27:46.977 [32m INFO[m [35m135064[m --- [           main] []
+            [36m.s.d.r.c.RepositoryConfigurationDelegate[m:Finished Spring Data repository scanning in 83 ms. Found 5 JPA repository interfaces.
+2024-02-17 03:27:48.369 [32m INFO[m [35m135064[m --- [           main] []
+            [36mo.s.b.w.e.t.TomcatWebServer             [m:Tomcat initialized with port 5001 (http)
+2024-02-17 03:27:48.378 [32m INFO[m [35m135064[m --- [           main] []
+            [36mo.a.c.h.Http11NioProtocol               [m:Initializing ProtocolHandler ["http-nio-5001"]
+2024-02-17 03:27:48.381 [32m INFO[m [35m135064[m --- [           main] []
+            [36mo.a.c.c.StandardService                 [m:Starting service [Tomcat]
+2024-02-17 03:27:48.382 [32m INFO[m [35m135064[m --- [           main] []
+            [36mo.a.c.c.StandardEngine                  [m:Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-02-17 03:27:48.436 [32m INFO[m [35m135064[m --- [           main] []
+            [36mo.a.c.c.C.[.[.[/]                       [m:Initializing Spring embedded WebApplicationContext
+2024-02-17 03:27:48.437 [32m INFO[m [35m135064[m --- [           main] []
+            [36mw.s.c.ServletWebServerApplicationContext[m:Root WebApplicationContext: initialization completed in 2551 ms
+2024-02-17 03:27:49.473 [32m INFO[m [35m135064[m --- [           main] []
+            [36mo.h.j.i.u.LogHelper                     [m:HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-17 03:27:49.563 [32m INFO[m [35m135064[m --- [           main] []
+            [36mo.h.Version                             [m:HHH000412: Hibernate ORM core version 6.3.1.Final
+2024-02-17 03:27:49.644 [32m INFO[m [35m135064[m --- [           main] []
+            [36mo.h.c.i.RegionFactoryInitiator          [m:HHH000026: Second-level cache disabled
+2024-02-17 03:27:49.920 [32m INFO[m [35m135064[m --- [           main] []
+            [36mc.z.h.HikariDataSource                  [m:HikariPool-1 - Starting...
+2024-02-17 03:27:50.286 [32m INFO[m [35m135064[m --- [           main] []
+            [36mc.z.h.p.HikariPool                      [m:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@515c732d
+2024-02-17 03:27:50.289 [32m INFO[m [35m135064[m --- [           main] []
+            [36mc.z.h.HikariDataSource                  [m:HikariPool-1 - Start completed.
+2024-02-17 03:27:50.544 [32m INFO[m [35m135064[m --- [           main] []
+            [36mo.s.o.j.p.SpringPersistenceUnitInfo     [m:No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-17 03:27:51.689 [32m INFO[m [35m135064[m --- [           main] []
+            [36mo.h.e.t.j.p.i.JtaPlatformInitiator      [m:HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-17 03:27:51.703 [33m WARN[m [35m135064[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 03:27:51.704 [33m WARN[m [35m135064[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"menu" 릴레이션 없음, 건너뜀
+2024-02-17 03:27:51.705 [33m WARN[m [35m135064[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 03:27:51.705 [33m WARN[m [35m135064[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"reservation" 릴레이션 없음, 건너뜀
+2024-02-17 03:27:51.705 [33m WARN[m [35m135064[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 03:27:51.706 [33m WARN[m [35m135064[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"reservation" 릴레이션 없음, 건너뜀
+2024-02-17 03:27:51.707 [33m WARN[m [35m135064[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 03:27:51.707 [33m WARN[m [35m135064[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"review" 릴레이션 없음, 건너뜀
+2024-02-17 03:27:51.708 [33m WARN[m [35m135064[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 03:27:51.708 [33m WARN[m [35m135064[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"menu" 테이블 없음, 무시함
+2024-02-17 03:27:51.709 [33m WARN[m [35m135064[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 03:27:51.709 [33m WARN[m [35m135064[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"reservation" 테이블 없음, 무시함
+2024-02-17 03:27:51.710 [33m WARN[m [35m135064[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 03:27:51.710 [33m WARN[m [35m135064[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"review" 테이블 없음, 무시함
+2024-02-17 03:27:51.711 [33m WARN[m [35m135064[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 03:27:51.711 [33m WARN[m [35m135064[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"shop" 테이블 없음, 무시함
+2024-02-17 03:27:51.712 [33m WARN[m [35m135064[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 03:27:51.713 [33m WARN[m [35m135064[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"user" 테이블 없음, 무시함
+2024-02-17 03:27:51.766 [32m INFO[m [35m135064[m --- [           main] []
+            [36mj.LocalContainerEntityManagerFactoryBean[m:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-17 03:27:53.469 [32m INFO[m [35m135064[m --- [           main] []
+            [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [m:Adding welcome page: class path resource [static/index.html]
+2024-02-17 03:27:54.338 [33m WARN[m [35m135064[m --- [           main] []
+            [36mion$DefaultTemplateResolverConfiguration[m:Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-02-17 03:27:55.027 [32m INFO[m [35m135064[m --- [           main] []
+            [36mo.s.b.a.e.w.EndpointLinksResolver       [m:Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-02-17 03:27:55.254 [32m INFO[m [35m135064[m --- [           main] []
+            [36mo.a.c.h.Http11NioProtocol               [m:Starting ProtocolHandler ["http-nio-5001"]
+2024-02-17 03:27:55.314 [32m INFO[m [35m135064[m --- [           main] []
+            [36mo.s.b.w.e.t.TomcatWebServer             [m:Tomcat started on port 5001 (http) with context path ''
+2024-02-17 03:27:55.328 [32m INFO[m [35m135064[m --- [           main] []
+            [36mj.v.b.BackendApplication                [m:Started BackendApplication in 10.212 seconds (process running for 11.215)
+2024-02-17 03:27:55.677 [32m INFO[m [35m135064[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop1_1_21AM.jpg
+2024-02-17 03:27:55.680 [32m INFO[m [35m135064[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop1_2_0n9Q.jpg
+2024-02-17 03:27:55.723 [32m INFO[m [35m135064[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop2_1_CRKc.png
+2024-02-17 03:27:55.730 [32m INFO[m [35m135064[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop2_2_zVE6.png
+2024-02-17 03:27:55.738 [32m INFO[m [35m135064[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop3_1_oOOW.jpg
+2024-02-17 03:27:55.741 [32m INFO[m [35m135064[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop3_2_nvCh.jpg
+2024-02-17 03:27:55.748 [32m INFO[m [35m135064[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop4_1_jTyM.jpg
+2024-02-17 03:27:55.751 [32m INFO[m [35m135064[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop4_2_xHE6.jpg
+2024-02-17 03:27:55.758 [32m INFO[m [35m135064[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu1_d6Mt.jpg
+2024-02-17 03:27:55.838 [32m INFO[m [35m135064[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu2_l9Ix.jpg
+2024-02-17 03:27:55.846 [32m INFO[m [35m135064[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu3_uIpt.jpg
+2024-02-17 03:27:55.854 [32m INFO[m [35m135064[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu4_QdmB.jpg
+2024-02-17 03:27:55.865 [32m INFO[m [35m135064[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu5_L2Ur.png
+2024-02-17 03:27:55.877 [32m INFO[m [35m135064[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu6_6pir.jpg
+2024-02-17 03:27:55.888 [32m INFO[m [35m135064[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu7_Gpyh.jpg
+2024-02-17 03:27:55.896 [32m INFO[m [35m135064[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu8_L8FS.jpg
+2024-02-17 03:27:55.904 [32m INFO[m [35m135064[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu9_6T6k.jpg
+2024-02-17 03:27:55.912 [32m INFO[m [35m135064[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu10_OxbH.jpg
+2024-02-17 03:27:55.920 [32m INFO[m [35m135064[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu11_akp5.jpg
+2024-02-17 03:27:55.930 [32m INFO[m [35m135064[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu12_LX9B.jpg
+2024-02-17 03:27:55.939 [32m INFO[m [35m135064[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_review\review1_FgjQ.jpg
+2024-02-17 03:27:55.970 [32m INFO[m [35m135064[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_review\review2_kSTc.jpg
+2024-02-17 03:27:55.985 [32m INFO[m [35m135064[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_review\review3_bptI.jpg
+2024-02-17 03:27:55.999 [32m INFO[m [35m135064[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_review\review4_aAKc.jpg
+2024-02-17 03:27:56.013 [32m INFO[m [35m135064[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_review\review5_QLiK.jpg
+2024-02-17 03:28:24.790 [32m INFO[m [35m135064[m --- [ionShutdownHook] []
+            [36mj.LocalContainerEntityManagerFactoryBean[m:Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-17 03:28:24.854 [32m INFO[m [35m135064[m --- [ionShutdownHook] []
+            [36mc.z.h.HikariDataSource                  [m:HikariPool-1 - Shutdown initiated...
+2024-02-17 03:28:24.859 [32m INFO[m [35m135064[m --- [ionShutdownHook] []
+            [36mc.z.h.HikariDataSource                  [m:HikariPool-1 - Shutdown completed.
+2024-02-17 03:28:31.118 [32m INFO[m [35m125600[m --- [           main] []
+            [36mj.v.b.BackendApplication                [m:Starting BackendApplication v0.0.1-SNAPSHOT using Java 20.0.2 with PID 125600 (C:\Users\USER\Desktop\joouu-main\bin\backend-0.0.1-SNAPSHOT.jar started by USER in C:\Users\USER\Desktop\joouu-main\bin)
+2024-02-17 03:28:31.133 [32m INFO[m [35m125600[m --- [           main] []
+            [36mj.v.b.BackendApplication                [m:No active profile set, falling back to 1 default profile: "default"
+2024-02-17 03:28:32.302 [32m INFO[m [35m125600[m --- [           main] []
+            [36m.s.d.r.c.RepositoryConfigurationDelegate[m:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-17 03:28:32.371 [32m INFO[m [35m125600[m --- [           main] []
+            [36m.s.d.r.c.RepositoryConfigurationDelegate[m:Finished Spring Data repository scanning in 61 ms. Found 5 JPA repository interfaces.
+2024-02-17 03:28:33.810 [32m INFO[m [35m125600[m --- [           main] []
+            [36mo.s.b.w.e.t.TomcatWebServer             [m:Tomcat initialized with port 5001 (http)
+2024-02-17 03:28:33.820 [32m INFO[m [35m125600[m --- [           main] []
+            [36mo.a.c.h.Http11NioProtocol               [m:Initializing ProtocolHandler ["http-nio-5001"]
+2024-02-17 03:28:33.823 [32m INFO[m [35m125600[m --- [           main] []
+            [36mo.a.c.c.StandardService                 [m:Starting service [Tomcat]
+2024-02-17 03:28:33.823 [32m INFO[m [35m125600[m --- [           main] []
+            [36mo.a.c.c.StandardEngine                  [m:Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-02-17 03:28:33.885 [32m INFO[m [35m125600[m --- [           main] []
+            [36mo.a.c.c.C.[.[.[/]                       [m:Initializing Spring embedded WebApplicationContext
+2024-02-17 03:28:33.887 [32m INFO[m [35m125600[m --- [           main] []
+            [36mw.s.c.ServletWebServerApplicationContext[m:Root WebApplicationContext: initialization completed in 2654 ms
+2024-02-17 03:28:34.760 [32m INFO[m [35m125600[m --- [           main] []
+            [36mo.h.j.i.u.LogHelper                     [m:HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-17 03:28:34.838 [32m INFO[m [35m125600[m --- [           main] []
+            [36mo.h.Version                             [m:HHH000412: Hibernate ORM core version 6.3.1.Final
+2024-02-17 03:28:34.902 [32m INFO[m [35m125600[m --- [           main] []
+            [36mo.h.c.i.RegionFactoryInitiator          [m:HHH000026: Second-level cache disabled
+2024-02-17 03:28:35.092 [32m INFO[m [35m125600[m --- [           main] []
+            [36mc.z.h.HikariDataSource                  [m:HikariPool-1 - Starting...
+2024-02-17 03:28:35.507 [32m INFO[m [35m125600[m --- [           main] []
+            [36mc.z.h.p.HikariPool                      [m:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3856d0cb
+2024-02-17 03:28:35.509 [32m INFO[m [35m125600[m --- [           main] []
+            [36mc.z.h.HikariDataSource                  [m:HikariPool-1 - Start completed.
+2024-02-17 03:28:35.739 [32m INFO[m [35m125600[m --- [           main] []
+            [36mo.s.o.j.p.SpringPersistenceUnitInfo     [m:No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-17 03:28:37.064 [32m INFO[m [35m125600[m --- [           main] []
+            [36mo.h.e.t.j.p.i.JtaPlatformInitiator      [m:HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-17 03:28:37.080 [33m WARN[m [35m125600[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 03:28:37.082 [33m WARN[m [35m125600[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"menu" 릴레이션 없음, 건너뜀
+2024-02-17 03:28:37.083 [33m WARN[m [35m125600[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 03:28:37.083 [33m WARN[m [35m125600[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"reservation" 릴레이션 없음, 건너뜀
+2024-02-17 03:28:37.084 [33m WARN[m [35m125600[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 03:28:37.084 [33m WARN[m [35m125600[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"reservation" 릴레이션 없음, 건너뜀
+2024-02-17 03:28:37.086 [33m WARN[m [35m125600[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 03:28:37.086 [33m WARN[m [35m125600[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"review" 릴레이션 없음, 건너뜀
+2024-02-17 03:28:37.087 [33m WARN[m [35m125600[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 03:28:37.087 [33m WARN[m [35m125600[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"menu" 테이블 없음, 무시함
+2024-02-17 03:28:37.088 [33m WARN[m [35m125600[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 03:28:37.089 [33m WARN[m [35m125600[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"reservation" 테이블 없음, 무시함
+2024-02-17 03:28:37.089 [33m WARN[m [35m125600[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 03:28:37.089 [33m WARN[m [35m125600[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"review" 테이블 없음, 무시함
+2024-02-17 03:28:37.091 [33m WARN[m [35m125600[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 03:28:37.092 [33m WARN[m [35m125600[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"shop" 테이블 없음, 무시함
+2024-02-17 03:28:37.093 [33m WARN[m [35m125600[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 03:28:37.093 [33m WARN[m [35m125600[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"user" 테이블 없음, 무시함
+2024-02-17 03:28:37.160 [32m INFO[m [35m125600[m --- [           main] []
+            [36mj.LocalContainerEntityManagerFactoryBean[m:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-17 03:28:38.917 [32m INFO[m [35m125600[m --- [           main] []
+            [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [m:Adding welcome page: class path resource [static/index.html]
+2024-02-17 03:28:39.767 [33m WARN[m [35m125600[m --- [           main] []
+            [36mion$DefaultTemplateResolverConfiguration[m:Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-02-17 03:28:40.415 [32m INFO[m [35m125600[m --- [           main] []
+            [36mo.s.b.a.e.w.EndpointLinksResolver       [m:Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-02-17 03:28:40.635 [32m INFO[m [35m125600[m --- [           main] []
+            [36mo.a.c.h.Http11NioProtocol               [m:Starting ProtocolHandler ["http-nio-5001"]
+2024-02-17 03:28:40.676 [32m INFO[m [35m125600[m --- [           main] []
+            [36mo.s.b.w.e.t.TomcatWebServer             [m:Tomcat started on port 5001 (http) with context path ''
+2024-02-17 03:28:40.691 [32m INFO[m [35m125600[m --- [           main] []
+            [36mj.v.b.BackendApplication                [m:Started BackendApplication in 10.281 seconds (process running for 11.261)
+2024-02-17 03:28:41.030 [32m INFO[m [35m125600[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop1_1_FmWL.jpg
+2024-02-17 03:28:41.034 [32m INFO[m [35m125600[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop1_2_Rpdu.jpg
+2024-02-17 03:28:41.065 [32m INFO[m [35m125600[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop2_1_Vw2s.png
+2024-02-17 03:28:41.071 [32m INFO[m [35m125600[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop2_2_HRXv.png
+2024-02-17 03:28:41.077 [32m INFO[m [35m125600[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop3_1_wH1U.jpg
+2024-02-17 03:28:41.080 [32m INFO[m [35m125600[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop3_2_KtfB.jpg
+2024-02-17 03:28:41.088 [32m INFO[m [35m125600[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop4_1_90cN.jpg
+2024-02-17 03:28:41.090 [32m INFO[m [35m125600[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop4_2_yzuS.jpg
+2024-02-17 03:28:41.098 [32m INFO[m [35m125600[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu1_OVvZ.jpg
+2024-02-17 03:28:41.150 [32m INFO[m [35m125600[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu2_dUtO.jpg
+2024-02-17 03:28:41.158 [32m INFO[m [35m125600[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu3_T3e3.jpg
+2024-02-17 03:28:41.164 [32m INFO[m [35m125600[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu4_IxCV.jpg
+2024-02-17 03:28:41.171 [32m INFO[m [35m125600[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu5_joFz.png
+2024-02-17 03:28:41.181 [32m INFO[m [35m125600[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu6_6zpf.jpg
+2024-02-17 03:28:41.191 [32m INFO[m [35m125600[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu7_hEbe.jpg
+2024-02-17 03:28:41.198 [32m INFO[m [35m125600[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu8_mTL0.jpg
+2024-02-17 03:28:41.207 [32m INFO[m [35m125600[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu9_fdgG.jpg
+2024-02-17 03:28:41.214 [32m INFO[m [35m125600[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu10_4yXb.jpg
+2024-02-17 03:28:41.222 [32m INFO[m [35m125600[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu11_a1XP.jpg
+2024-02-17 03:28:41.230 [32m INFO[m [35m125600[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu12_XqTH.jpg
+2024-02-17 03:28:41.240 [32m INFO[m [35m125600[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_review\review1_pv6i.jpg
+2024-02-17 03:28:41.259 [32m INFO[m [35m125600[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_review\review2_eQj6.jpg
+2024-02-17 03:28:41.271 [32m INFO[m [35m125600[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_review\review3_DgIX.jpg
+2024-02-17 03:28:41.283 [32m INFO[m [35m125600[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_review\review4_P07o.jpg
+2024-02-17 03:28:41.292 [32m INFO[m [35m125600[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_review\review5_Xtzq.jpg
+2024-02-17 03:29:32.782 [32m INFO[m [35m125600[m --- [ionShutdownHook] []
+            [36mj.LocalContainerEntityManagerFactoryBean[m:Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-17 03:29:32.840 [32m INFO[m [35m125600[m --- [ionShutdownHook] []
+            [36mc.z.h.HikariDataSource                  [m:HikariPool-1 - Shutdown initiated...
+2024-02-17 03:29:32.848 [32m INFO[m [35m125600[m --- [ionShutdownHook] []
+            [36mc.z.h.HikariDataSource                  [m:HikariPool-1 - Shutdown completed.
+2024-02-17 03:35:55.134 [32m INFO[m [35m57692[m --- [           main] []
+            [36mj.v.b.BackendApplication                [m:Starting BackendApplication v0.0.1-SNAPSHOT using Java 20.0.2 with PID 57692 (C:\Users\USER\Desktop\joouu-main\bin\backend-0.0.1-SNAPSHOT.jar started by USER in C:\Users\USER\Desktop\joouu-main\bin)
+2024-02-17 03:35:55.154 [32m INFO[m [35m57692[m --- [           main] []
+            [36mj.v.b.BackendApplication                [m:No active profile set, falling back to 1 default profile: "default"
+2024-02-17 03:35:56.416 [32m INFO[m [35m57692[m --- [           main] []
+            [36m.s.d.r.c.RepositoryConfigurationDelegate[m:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-17 03:35:56.494 [32m INFO[m [35m57692[m --- [           main] []
+            [36m.s.d.r.c.RepositoryConfigurationDelegate[m:Finished Spring Data repository scanning in 69 ms. Found 5 JPA repository interfaces.
+2024-02-17 03:35:57.869 [32m INFO[m [35m57692[m --- [           main] []
+            [36mo.s.b.w.e.t.TomcatWebServer             [m:Tomcat initialized with port 5001 (http)
+2024-02-17 03:35:57.882 [32m INFO[m [35m57692[m --- [           main] []
+            [36mo.a.c.h.Http11NioProtocol               [m:Initializing ProtocolHandler ["http-nio-5001"]
+2024-02-17 03:35:57.886 [32m INFO[m [35m57692[m --- [           main] []
+            [36mo.a.c.c.StandardService                 [m:Starting service [Tomcat]
+2024-02-17 03:35:57.886 [32m INFO[m [35m57692[m --- [           main] []
+            [36mo.a.c.c.StandardEngine                  [m:Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-02-17 03:35:57.952 [32m INFO[m [35m57692[m --- [           main] []
+            [36mo.a.c.c.C.[.[.[/]                       [m:Initializing Spring embedded WebApplicationContext
+2024-02-17 03:35:57.953 [32m INFO[m [35m57692[m --- [           main] []
+            [36mw.s.c.ServletWebServerApplicationContext[m:Root WebApplicationContext: initialization completed in 2688 ms
+2024-02-17 03:35:58.958 [32m INFO[m [35m57692[m --- [           main] []
+            [36mo.h.j.i.u.LogHelper                     [m:HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-17 03:35:59.206 [32m INFO[m [35m57692[m --- [           main] []
+            [36mo.h.Version                             [m:HHH000412: Hibernate ORM core version 6.3.1.Final
+2024-02-17 03:35:59.256 [32m INFO[m [35m57692[m --- [           main] []
+            [36mo.h.c.i.RegionFactoryInitiator          [m:HHH000026: Second-level cache disabled
+2024-02-17 03:35:59.372 [32m INFO[m [35m57692[m --- [           main] []
+            [36mc.z.h.HikariDataSource                  [m:HikariPool-1 - Starting...
+2024-02-17 03:35:59.788 [32m INFO[m [35m57692[m --- [           main] []
+            [36mc.z.h.p.HikariPool                      [m:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3856d0cb
+2024-02-17 03:35:59.790 [32m INFO[m [35m57692[m --- [           main] []
+            [36mc.z.h.HikariDataSource                  [m:HikariPool-1 - Start completed.
+2024-02-17 03:36:00.041 [32m INFO[m [35m57692[m --- [           main] []
+            [36mo.s.o.j.p.SpringPersistenceUnitInfo     [m:No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-17 03:36:01.102 [32m INFO[m [35m57692[m --- [           main] []
+            [36mo.h.e.t.j.p.i.JtaPlatformInitiator      [m:HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-17 03:36:01.118 [33m WARN[m [35m57692[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 03:36:01.119 [33m WARN[m [35m57692[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"menu" 릴레이션 없음, 건너뜀
+2024-02-17 03:36:01.120 [33m WARN[m [35m57692[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 03:36:01.120 [33m WARN[m [35m57692[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"reservation" 릴레이션 없음, 건너뜀
+2024-02-17 03:36:01.121 [33m WARN[m [35m57692[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 03:36:01.121 [33m WARN[m [35m57692[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"reservation" 릴레이션 없음, 건너뜀
+2024-02-17 03:36:01.122 [33m WARN[m [35m57692[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 03:36:01.122 [33m WARN[m [35m57692[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"review" 릴레이션 없음, 건너뜀
+2024-02-17 03:36:01.123 [33m WARN[m [35m57692[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 03:36:01.123 [33m WARN[m [35m57692[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"menu" 테이블 없음, 무시함
+2024-02-17 03:36:01.124 [33m WARN[m [35m57692[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 03:36:01.124 [33m WARN[m [35m57692[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"reservation" 테이블 없음, 무시함
+2024-02-17 03:36:01.126 [33m WARN[m [35m57692[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 03:36:01.127 [33m WARN[m [35m57692[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"review" 테이블 없음, 무시함
+2024-02-17 03:36:01.128 [33m WARN[m [35m57692[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 03:36:01.129 [33m WARN[m [35m57692[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"shop" 테이블 없음, 무시함
+2024-02-17 03:36:01.129 [33m WARN[m [35m57692[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 03:36:01.130 [33m WARN[m [35m57692[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"user" 테이블 없음, 무시함
+2024-02-17 03:36:01.190 [32m INFO[m [35m57692[m --- [           main] []
+            [36mj.LocalContainerEntityManagerFactoryBean[m:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-17 03:36:03.084 [32m INFO[m [35m57692[m --- [           main] []
+            [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [m:Adding welcome page: class path resource [static/index.html]
+2024-02-17 03:36:04.009 [33m WARN[m [35m57692[m --- [           main] []
+            [36mion$DefaultTemplateResolverConfiguration[m:Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-02-17 03:36:04.739 [32m INFO[m [35m57692[m --- [           main] []
+            [36mo.s.b.a.e.w.EndpointLinksResolver       [m:Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-02-17 03:36:04.952 [32m INFO[m [35m57692[m --- [           main] []
+            [36mo.a.c.h.Http11NioProtocol               [m:Starting ProtocolHandler ["http-nio-5001"]
+2024-02-17 03:36:05.020 [32m INFO[m [35m57692[m --- [           main] []
+            [36mo.s.b.w.e.t.TomcatWebServer             [m:Tomcat started on port 5001 (http) with context path ''
+2024-02-17 03:36:05.037 [32m INFO[m [35m57692[m --- [           main] []
+            [36mj.v.b.BackendApplication                [m:Started BackendApplication in 10.658 seconds (process running for 11.627)
+2024-02-17 03:36:05.522 [32m INFO[m [35m57692[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop1_1_rn1y.jpg
+2024-02-17 03:36:05.525 [32m INFO[m [35m57692[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop1_2_uqoL.jpg
+2024-02-17 03:36:05.566 [32m INFO[m [35m57692[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop2_1_i7RN.png
+2024-02-17 03:36:05.573 [32m INFO[m [35m57692[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop2_2_igU3.png
+2024-02-17 03:36:05.580 [32m INFO[m [35m57692[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop3_1_SAs4.jpg
+2024-02-17 03:36:05.583 [32m INFO[m [35m57692[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop3_2_fBBa.jpg
+2024-02-17 03:36:05.590 [32m INFO[m [35m57692[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop4_1_zRWJ.jpg
+2024-02-17 03:36:05.594 [32m INFO[m [35m57692[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop4_2_NHY0.jpg
+2024-02-17 03:36:05.602 [32m INFO[m [35m57692[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu1_nV4l.jpg
+2024-02-17 03:36:05.682 [32m INFO[m [35m57692[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu2_xAgx.jpg
+2024-02-17 03:36:05.691 [32m INFO[m [35m57692[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu3_eYaX.jpg
+2024-02-17 03:36:05.697 [32m INFO[m [35m57692[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu4_ZKwb.jpg
+2024-02-17 03:36:05.703 [32m INFO[m [35m57692[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu5_5kgG.png
+2024-02-17 03:36:05.712 [32m INFO[m [35m57692[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu6_7zij.jpg
+2024-02-17 03:36:05.721 [32m INFO[m [35m57692[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu7_dztR.jpg
+2024-02-17 03:36:05.729 [32m INFO[m [35m57692[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu8_dEIM.jpg
+2024-02-17 03:36:05.736 [32m INFO[m [35m57692[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu9_h96G.jpg
+2024-02-17 03:36:05.744 [32m INFO[m [35m57692[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu10_ux7l.jpg
+2024-02-17 03:36:05.753 [32m INFO[m [35m57692[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu11_4kyN.jpg
+2024-02-17 03:36:05.762 [32m INFO[m [35m57692[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu12_cmsr.jpg
+2024-02-17 03:36:05.771 [32m INFO[m [35m57692[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_review\review1_k9tw.jpg
+2024-02-17 03:36:05.790 [32m INFO[m [35m57692[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_review\review2_UD3i.jpg
+2024-02-17 03:36:05.803 [32m INFO[m [35m57692[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_review\review3_rzZ3.jpg
+2024-02-17 03:36:05.816 [32m INFO[m [35m57692[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_review\review4_mDwW.jpg
+2024-02-17 03:36:05.828 [32m INFO[m [35m57692[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_review\review5_dwpX.jpg
+2024-02-17 04:33:31.562 [33m WARN[m [35m57692[m --- [l-1 housekeeper] []
+            [36mc.z.h.p.HikariPool                      [m:HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m58s523ms449µs800ns).
+2024-02-17 16:27:37.015 [33m WARN[m [35m57692[m --- [l-1 housekeeper] []
+            [36mc.z.h.p.HikariPool                      [m:HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11h52m5s142ms719µs599ns).
+2024-02-17 17:09:29.910 [32m INFO[m [35m57692[m --- [ionShutdownHook] []
+            [36mj.LocalContainerEntityManagerFactoryBean[m:Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-17 17:09:30.009 [32m INFO[m [35m57692[m --- [ionShutdownHook] []
+            [36mc.z.h.HikariDataSource                  [m:HikariPool-1 - Shutdown initiated...
+2024-02-17 17:09:30.018 [32m INFO[m [35m57692[m --- [ionShutdownHook] []
+            [36mc.z.h.HikariDataSource                  [m:HikariPool-1 - Shutdown completed.
+2024-02-17 17:09:39.210 [32m INFO[m [35m137380[m --- [           main] []
+            [36mj.v.b.BackendApplication                [m:Starting BackendApplication v0.0.1-SNAPSHOT using Java 20.0.2 with PID 137380 (C:\Users\USER\Desktop\joouu-main\bin\backend-0.0.1-SNAPSHOT.jar started by USER in C:\Users\USER\Desktop\joouu-main\bin)
+2024-02-17 17:09:39.233 [32m INFO[m [35m137380[m --- [           main] []
+            [36mj.v.b.BackendApplication                [m:No active profile set, falling back to 1 default profile: "default"
+2024-02-17 17:09:40.433 [32m INFO[m [35m137380[m --- [           main] []
+            [36m.s.d.r.c.RepositoryConfigurationDelegate[m:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-17 17:09:40.516 [32m INFO[m [35m137380[m --- [           main] []
+            [36m.s.d.r.c.RepositoryConfigurationDelegate[m:Finished Spring Data repository scanning in 77 ms. Found 5 JPA repository interfaces.
+2024-02-17 17:09:41.894 [32m INFO[m [35m137380[m --- [           main] []
+            [36mo.s.b.w.e.t.TomcatWebServer             [m:Tomcat initialized with port 5001 (http)
+2024-02-17 17:09:41.905 [32m INFO[m [35m137380[m --- [           main] []
+            [36mo.a.c.h.Http11NioProtocol               [m:Initializing ProtocolHandler ["http-nio-5001"]
+2024-02-17 17:09:41.908 [32m INFO[m [35m137380[m --- [           main] []
+            [36mo.a.c.c.StandardService                 [m:Starting service [Tomcat]
+2024-02-17 17:09:41.908 [32m INFO[m [35m137380[m --- [           main] []
+            [36mo.a.c.c.StandardEngine                  [m:Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-02-17 17:09:41.982 [32m INFO[m [35m137380[m --- [           main] []
+            [36mo.a.c.c.C.[.[.[/]                       [m:Initializing Spring embedded WebApplicationContext
+2024-02-17 17:09:41.983 [32m INFO[m [35m137380[m --- [           main] []
+            [36mw.s.c.ServletWebServerApplicationContext[m:Root WebApplicationContext: initialization completed in 2643 ms
+2024-02-17 17:09:42.825 [32m INFO[m [35m137380[m --- [           main] []
+            [36mo.h.j.i.u.LogHelper                     [m:HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-17 17:09:42.900 [32m INFO[m [35m137380[m --- [           main] []
+            [36mo.h.Version                             [m:HHH000412: Hibernate ORM core version 6.3.1.Final
+2024-02-17 17:09:42.960 [32m INFO[m [35m137380[m --- [           main] []
+            [36mo.h.c.i.RegionFactoryInitiator          [m:HHH000026: Second-level cache disabled
+2024-02-17 17:09:43.081 [32m INFO[m [35m137380[m --- [           main] []
+            [36mc.z.h.HikariDataSource                  [m:HikariPool-1 - Starting...
+2024-02-17 17:09:43.421 [32m INFO[m [35m137380[m --- [           main] []
+            [36mc.z.h.p.HikariPool                      [m:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@515c732d
+2024-02-17 17:09:43.423 [32m INFO[m [35m137380[m --- [           main] []
+            [36mc.z.h.HikariDataSource                  [m:HikariPool-1 - Start completed.
+2024-02-17 17:09:43.712 [32m INFO[m [35m137380[m --- [           main] []
+            [36mo.s.o.j.p.SpringPersistenceUnitInfo     [m:No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-17 17:09:44.952 [32m INFO[m [35m137380[m --- [           main] []
+            [36mo.h.e.t.j.p.i.JtaPlatformInitiator      [m:HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-17 17:09:44.976 [33m WARN[m [35m137380[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 17:09:44.976 [33m WARN[m [35m137380[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"menu" 릴레이션 없음, 건너뜀
+2024-02-17 17:09:44.978 [33m WARN[m [35m137380[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 17:09:44.979 [33m WARN[m [35m137380[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"reservation" 릴레이션 없음, 건너뜀
+2024-02-17 17:09:44.980 [33m WARN[m [35m137380[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 17:09:44.981 [33m WARN[m [35m137380[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"reservation" 릴레이션 없음, 건너뜀
+2024-02-17 17:09:44.982 [33m WARN[m [35m137380[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 17:09:44.983 [33m WARN[m [35m137380[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"review" 릴레이션 없음, 건너뜀
+2024-02-17 17:09:44.984 [33m WARN[m [35m137380[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 17:09:44.985 [33m WARN[m [35m137380[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"menu" 테이블 없음, 무시함
+2024-02-17 17:09:44.988 [33m WARN[m [35m137380[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 17:09:44.988 [33m WARN[m [35m137380[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"reservation" 테이블 없음, 무시함
+2024-02-17 17:09:44.990 [33m WARN[m [35m137380[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 17:09:44.990 [33m WARN[m [35m137380[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"review" 테이블 없음, 무시함
+2024-02-17 17:09:44.991 [33m WARN[m [35m137380[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 17:09:44.992 [33m WARN[m [35m137380[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"shop" 테이블 없음, 무시함
+2024-02-17 17:09:44.993 [33m WARN[m [35m137380[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-17 17:09:44.993 [33m WARN[m [35m137380[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"user" 테이블 없음, 무시함
+2024-02-17 17:09:45.072 [32m INFO[m [35m137380[m --- [           main] []
+            [36mj.LocalContainerEntityManagerFactoryBean[m:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-17 17:09:47.058 [32m INFO[m [35m137380[m --- [           main] []
+            [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [m:Adding welcome page: class path resource [static/index.html]
+2024-02-17 17:09:47.991 [33m WARN[m [35m137380[m --- [           main] []
+            [36mion$DefaultTemplateResolverConfiguration[m:Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-02-17 17:09:48.645 [32m INFO[m [35m137380[m --- [           main] []
+            [36mo.s.b.a.e.w.EndpointLinksResolver       [m:Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-02-17 17:09:48.825 [32m INFO[m [35m137380[m --- [           main] []
+            [36mo.a.c.h.Http11NioProtocol               [m:Starting ProtocolHandler ["http-nio-5001"]
+2024-02-17 17:09:48.918 [32m INFO[m [35m137380[m --- [           main] []
+            [36mo.s.b.w.e.t.TomcatWebServer             [m:Tomcat started on port 5001 (http) with context path ''
+2024-02-17 17:09:48.934 [32m INFO[m [35m137380[m --- [           main] []
+            [36mj.v.b.BackendApplication                [m:Started BackendApplication in 10.609 seconds (process running for 11.599)
+2024-02-17 17:09:49.324 [32m INFO[m [35m137380[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop1_1_igjN.jpg
+2024-02-17 17:09:49.328 [32m INFO[m [35m137380[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop1_2_FJDe.jpg
+2024-02-17 17:09:49.358 [32m INFO[m [35m137380[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop2_1_J0B7.png
+2024-02-17 17:09:49.365 [32m INFO[m [35m137380[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop2_2_hqW9.png
+2024-02-17 17:09:49.373 [32m INFO[m [35m137380[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop3_1_H51n.jpg
+2024-02-17 17:09:49.377 [32m INFO[m [35m137380[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop3_2_wKxd.jpg
+2024-02-17 17:09:49.384 [32m INFO[m [35m137380[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop4_1_CC1g.jpg
+2024-02-17 17:09:49.388 [32m INFO[m [35m137380[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop4_2_URY8.jpg
+2024-02-17 17:09:49.395 [32m INFO[m [35m137380[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu1_VOOs.jpg
+2024-02-17 17:09:49.461 [32m INFO[m [35m137380[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu2_7Dgn.jpg
+2024-02-17 17:09:49.468 [32m INFO[m [35m137380[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu3_7QH1.jpg
+2024-02-17 17:09:49.475 [32m INFO[m [35m137380[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu4_fOWG.jpg
+2024-02-17 17:09:49.483 [32m INFO[m [35m137380[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu5_nZ1k.png
+2024-02-17 17:09:49.492 [32m INFO[m [35m137380[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu6_OL4a.jpg
+2024-02-17 17:09:49.504 [32m INFO[m [35m137380[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu7_9Jsp.jpg
+2024-02-17 17:09:49.514 [32m INFO[m [35m137380[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu8_oI7n.jpg
+2024-02-17 17:09:49.522 [32m INFO[m [35m137380[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu9_hOcC.jpg
+2024-02-17 17:09:49.532 [32m INFO[m [35m137380[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu10_m58P.jpg
+2024-02-17 17:09:49.542 [32m INFO[m [35m137380[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu11_Nlcn.jpg
+2024-02-17 17:09:49.551 [32m INFO[m [35m137380[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu12_oqNe.jpg
+2024-02-17 17:09:49.561 [32m INFO[m [35m137380[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_review\review1_Z5rb.jpg
+2024-02-17 17:09:49.583 [32m INFO[m [35m137380[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_review\review2_gm6r.jpg
+2024-02-17 17:09:49.594 [32m INFO[m [35m137380[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_review\review3_aKJT.jpg
+2024-02-17 17:09:49.606 [32m INFO[m [35m137380[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_review\review4_10cL.jpg
+2024-02-17 17:09:49.621 [32m INFO[m [35m137380[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_review\review5_pEPL.jpg
+2024-02-17 19:36:59.425 [32m INFO[m [35m137380[m --- [nio-5001-exec-1] []
+            [36mo.a.c.c.C.[.[.[/]                       [m:Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-17 19:36:59.431 [32m INFO[m [35m137380[m --- [nio-5001-exec-1] []
+            [36mo.s.w.s.DispatcherServlet               [m:Initializing Servlet 'dispatcherServlet'
+2024-02-17 19:36:59.466 [32m INFO[m [35m137380[m --- [nio-5001-exec-1] []
+            [36mo.s.w.s.DispatcherServlet               [m:Completed initialization in 35 ms
+2024-02-17 19:37:14.452 [33m WARN[m [35m137380[m --- [nio-5001-exec-2] []
+            [36mj.v.b.c.LoginController                 [m:login error : RequestToken(userId=TEST, password=TEST)
+2024-02-17 19:37:14.457 [31mERROR[m [35m137380[m --- [nio-5001-exec-2] []
+            [36mj.v.b.c.e.ServiceExceptionHandler       [m:exception error. path=/login
+java.lang.RuntimeException: [INTERNAL_SERVER_ERROR] login user is not found. 
+	at ji.vegan.backend.controller.LoginController.login(LoginController.java:63)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:254)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:182)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.ShallowEtagHeaderFilter.doFilterInternal(ShallowEtagHeaderFilter.java:107)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at ji.vegan.backend.config.filter.UserRequestFilter.doFilterInternal(UserRequestFilter.java:126)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+2024-02-17 19:37:28.286 [33m WARN[m [35m137380[m --- [nio-5001-exec-9] []
+            [36mj.v.b.c.SignupController                [m:create user error. userId exist. : test
+2024-02-17 19:37:28.288 [31mERROR[m [35m137380[m --- [nio-5001-exec-9] []
+            [36mj.v.b.c.e.ServiceExceptionHandler       [m:exception error. path=/signup
+java.lang.RuntimeException: [INTERNAL_SERVER_ERROR] create user error. userId exist test
+	at ji.vegan.backend.controller.SignupController.signup(SignupController.java:44)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:254)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:182)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.ShallowEtagHeaderFilter.doFilterInternal(ShallowEtagHeaderFilter.java:107)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at ji.vegan.backend.config.filter.UserRequestFilter.doFilterInternal(UserRequestFilter.java:126)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+2024-02-17 19:37:36.144 [33m WARN[m [35m137380[m --- [nio-5001-exec-6] []
+            [36mj.v.b.c.SignupController                [m:create user error. userId exist. : test
+2024-02-17 19:37:36.145 [31mERROR[m [35m137380[m --- [nio-5001-exec-6] []
+            [36mj.v.b.c.e.ServiceExceptionHandler       [m:exception error. path=/signup
+java.lang.RuntimeException: [INTERNAL_SERVER_ERROR] create user error. userId exist test
+	at ji.vegan.backend.controller.SignupController.signup(SignupController.java:44)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:254)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:182)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.ShallowEtagHeaderFilter.doFilterInternal(ShallowEtagHeaderFilter.java:107)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at ji.vegan.backend.config.filter.UserRequestFilter.doFilterInternal(UserRequestFilter.java:126)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+2024-02-17 19:37:52.084 [32m INFO[m [35m137380[m --- [nio-5001-exec-7] []
+            [36mj.v.b.c.LoginController                 [m:login success user. UserInfo(id=4, userId=cyjj7513, role=USER, ip=0:0:0:0:0:0:0:1)
+2024-02-17 19:54:20.639 [32m INFO[m [35m137380[m --- [nio-5001-exec-6] []
+            [36mj.v.b.c.LoginController                 [m:login success user. UserInfo(id=4, userId=cyjj7513, role=USER, ip=0:0:0:0:0:0:0:1)
+2024-02-17 20:33:15.366 [32m INFO[m [35m110488[m --- [           main] []
+            [36mj.v.b.BackendApplication                [m:Starting BackendApplication v0.0.1-SNAPSHOT using Java 20.0.2 with PID 110488 (C:\Users\USER\Desktop\joouu-main\bin\backend-0.0.1-SNAPSHOT.jar started by USER in C:\Users\USER\Desktop\joouu-main\bin)
+2024-02-17 20:33:15.378 [32m INFO[m [35m110488[m --- [           main] []
+            [36mj.v.b.BackendApplication                [m:No active profile set, falling back to 1 default profile: "default"
+2024-02-17 20:33:16.440 [32m INFO[m [35m110488[m --- [           main] []
+            [36m.s.d.r.c.RepositoryConfigurationDelegate[m:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-17 20:33:16.513 [32m INFO[m [35m110488[m --- [           main] []
+            [36m.s.d.r.c.RepositoryConfigurationDelegate[m:Finished Spring Data repository scanning in 65 ms. Found 5 JPA repository interfaces.
+2024-02-17 20:33:17.524 [32m INFO[m [35m110488[m --- [           main] []
+            [36mo.s.b.w.e.t.TomcatWebServer             [m:Tomcat initialized with port 5001 (http)
+2024-02-17 20:33:17.540 [32m INFO[m [35m110488[m --- [           main] []
+            [36mo.a.c.h.Http11NioProtocol               [m:Initializing ProtocolHandler ["http-nio-5001"]
+2024-02-17 20:33:17.546 [32m INFO[m [35m110488[m --- [           main] []
+            [36mo.a.c.c.StandardService                 [m:Starting service [Tomcat]
+2024-02-17 20:33:17.546 [32m INFO[m [35m110488[m --- [           main] []
+            [36mo.a.c.c.StandardEngine                  [m:Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-02-17 20:33:17.602 [32m INFO[m [35m110488[m --- [           main] []
+            [36mo.a.c.c.C.[.[.[/]                       [m:Initializing Spring embedded WebApplicationContext
+2024-02-17 20:33:17.613 [32m INFO[m [35m110488[m --- [           main] []
+            [36mw.s.c.ServletWebServerApplicationContext[m:Root WebApplicationContext: initialization completed in 2118 ms
+2024-02-17 20:33:18.013 [32m INFO[m [35m110488[m --- [           main] []
+            [36mo.h.j.i.u.LogHelper                     [m:HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-17 20:33:18.119 [32m INFO[m [35m110488[m --- [           main] []
+            [36mo.h.Version                             [m:HHH000412: Hibernate ORM core version 6.3.1.Final
+2024-02-17 20:33:18.181 [32m INFO[m [35m110488[m --- [           main] []
+            [36mo.h.c.i.RegionFactoryInitiator          [m:HHH000026: Second-level cache disabled
+2024-02-17 20:33:18.362 [32m INFO[m [35m110488[m --- [           main] []
+            [36mc.z.h.HikariDataSource                  [m:HikariPool-1 - Starting...
+2024-02-17 20:33:18.761 [32m INFO[m [35m110488[m --- [           main] []
+            [36mc.z.h.p.HikariPool                      [m:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3856d0cb
+2024-02-17 20:33:18.763 [32m INFO[m [35m110488[m --- [           main] []
+            [36mc.z.h.HikariDataSource                  [m:HikariPool-1 - Start completed.
+2024-02-17 20:33:19.277 [32m INFO[m [35m110488[m --- [           main] []
+            [36mo.s.o.j.p.SpringPersistenceUnitInfo     [m:No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-17 20:33:20.527 [32m INFO[m [35m110488[m --- [           main] []
+            [36mo.h.e.t.j.p.i.JtaPlatformInitiator      [m:HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-17 20:33:20.676 [32m INFO[m [35m110488[m --- [           main] []
+            [36mj.LocalContainerEntityManagerFactoryBean[m:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-17 20:33:21.914 [32m INFO[m [35m110488[m --- [           main] []
+            [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [m:Adding welcome page: class path resource [static/index.html]
+2024-02-17 20:33:22.404 [33m WARN[m [35m110488[m --- [           main] []
+            [36mion$DefaultTemplateResolverConfiguration[m:Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-02-17 20:33:22.798 [32m INFO[m [35m110488[m --- [           main] []
+            [36mo.s.b.a.e.w.EndpointLinksResolver       [m:Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-02-17 20:33:22.891 [32m INFO[m [35m110488[m --- [           main] []
+            [36mo.a.c.h.Http11NioProtocol               [m:Starting ProtocolHandler ["http-nio-5001"]
+2024-02-17 20:33:22.922 [32m INFO[m [35m110488[m --- [           main] []
+            [36mo.s.b.w.e.t.TomcatWebServer             [m:Tomcat started on port 5001 (http) with context path ''
+2024-02-17 20:33:22.936 [32m INFO[m [35m110488[m --- [           main] []
+            [36mj.v.b.BackendApplication                [m:Started BackendApplication in 8.525 seconds (process running for 10.025)
+2024-02-17 20:33:23.302 [32m INFO[m [35m110488[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop1_1_iGoG.jpg
+2024-02-17 20:33:23.308 [32m INFO[m [35m110488[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop1_2_VTcm.jpg
+2024-02-17 20:33:23.364 [32m INFO[m [35m110488[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop2_1_FtKG.png
+2024-02-17 20:33:23.373 [32m INFO[m [35m110488[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop2_2_Be2Z.png
+2024-02-17 20:33:23.379 [32m INFO[m [35m110488[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop3_1_RrTe.jpg
+2024-02-17 20:33:23.382 [32m INFO[m [35m110488[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop3_2_TVJY.jpg
+2024-02-17 20:33:23.390 [32m INFO[m [35m110488[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop4_1_6ZAA.jpg
+2024-02-17 20:33:23.395 [32m INFO[m [35m110488[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop4_2_c8Lx.jpg
+2024-02-17 20:33:23.404 [32m INFO[m [35m110488[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu1_aVKT.jpg
+2024-02-17 20:33:23.508 [32m INFO[m [35m110488[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu2_vQXG.jpg
+2024-02-17 20:33:23.518 [32m INFO[m [35m110488[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu3_4tCz.jpg
+2024-02-17 20:33:23.526 [32m INFO[m [35m110488[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu4_rixc.jpg
+2024-02-17 20:33:23.536 [32m INFO[m [35m110488[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu5_VXvm.png
+2024-02-17 20:33:23.546 [32m INFO[m [35m110488[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu6_gmIN.jpg
+2024-02-17 20:33:23.558 [32m INFO[m [35m110488[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu7_iSlQ.jpg
+2024-02-17 20:33:23.568 [32m INFO[m [35m110488[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu8_3LRg.jpg
+2024-02-17 20:33:23.577 [32m INFO[m [35m110488[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu9_ERRy.jpg
+2024-02-17 20:33:23.586 [32m INFO[m [35m110488[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu10_ykGe.jpg
+2024-02-17 20:33:23.596 [32m INFO[m [35m110488[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu11_NOQo.jpg
+2024-02-17 20:33:23.616 [32m INFO[m [35m110488[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu12_liuH.jpg
+2024-02-17 20:33:23.631 [32m INFO[m [35m110488[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_review\review1_WIll.jpg
+2024-02-17 20:33:23.661 [32m INFO[m [35m110488[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_review\review2_CHJ8.jpg
+2024-02-17 20:33:23.674 [32m INFO[m [35m110488[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_review\review3_W0J8.jpg
+2024-02-17 20:33:23.688 [32m INFO[m [35m110488[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_review\review4_M4WV.jpg
+2024-02-17 20:33:23.699 [32m INFO[m [35m110488[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_review\review5_OXuC.jpg
+2024-02-17 20:33:44.514 [32m INFO[m [35m110488[m --- [nio-5001-exec-1] []
+            [36mo.a.c.c.C.[.[.[/]                       [m:Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-17 20:33:44.515 [32m INFO[m [35m110488[m --- [nio-5001-exec-1] []
+            [36mo.s.w.s.DispatcherServlet               [m:Initializing Servlet 'dispatcherServlet'
+2024-02-17 20:33:44.520 [32m INFO[m [35m110488[m --- [nio-5001-exec-1] []
+            [36mo.s.w.s.DispatcherServlet               [m:Completed initialization in 1 ms
+2024-02-17 20:33:50.822 [33m WARN[m [35m110488[m --- [nio-5001-exec-4] []
+            [36mj.v.b.c.LoginController                 [m:login error : RequestToken(userId=cyjj7513, password=encke1234)
+2024-02-17 20:33:50.826 [31mERROR[m [35m110488[m --- [nio-5001-exec-4] []
+            [36mj.v.b.c.e.ServiceExceptionHandler       [m:exception error. path=/login
+java.lang.RuntimeException: [INTERNAL_SERVER_ERROR] login user is not found. 
+	at ji.vegan.backend.controller.LoginController.login(LoginController.java:63)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:254)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:182)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.ShallowEtagHeaderFilter.doFilterInternal(ShallowEtagHeaderFilter.java:107)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at ji.vegan.backend.config.filter.UserRequestFilter.doFilterInternal(UserRequestFilter.java:126)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+2024-02-17 20:33:54.873 [33m WARN[m [35m110488[m --- [nio-5001-exec-5] []
+            [36mj.v.b.c.LoginController                 [m:login error : RequestToken(userId=cyjj7513, password=encke1234)
+2024-02-17 20:33:54.874 [31mERROR[m [35m110488[m --- [nio-5001-exec-5] []
+            [36mj.v.b.c.e.ServiceExceptionHandler       [m:exception error. path=/login
+java.lang.RuntimeException: [INTERNAL_SERVER_ERROR] login user is not found. 
+	at ji.vegan.backend.controller.LoginController.login(LoginController.java:63)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:254)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:182)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.ShallowEtagHeaderFilter.doFilterInternal(ShallowEtagHeaderFilter.java:107)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at ji.vegan.backend.config.filter.UserRequestFilter.doFilterInternal(UserRequestFilter.java:126)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+2024-02-17 20:34:10.881 [32m INFO[m [35m110488[m --- [nio-5001-exec-9] []
+            [36mj.v.b.c.LoginController                 [m:login success user. UserInfo(id=4, userId=cyjj7513, role=USER, ip=0:0:0:0:0:0:0:1)
+2024-02-20 19:54:27.349 [32m INFO[m [35m26028[m --- [           main] []
+            [36mj.v.b.BackendApplication                [m:Starting BackendApplication v0.0.1-SNAPSHOT using Java 17.0.10 with PID 26028 (C:\Users\USER\Desktop\joouu-main\bin\backend-0.0.1-SNAPSHOT.jar started by USER in C:\Users\USER\Desktop\joouu-main\bin)
+2024-02-20 19:54:27.362 [32m INFO[m [35m26028[m --- [           main] []
+            [36mj.v.b.BackendApplication                [m:No active profile set, falling back to 1 default profile: "default"
+2024-02-20 19:54:28.420 [32m INFO[m [35m26028[m --- [           main] []
+            [36m.s.d.r.c.RepositoryConfigurationDelegate[m:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-20 19:54:28.516 [32m INFO[m [35m26028[m --- [           main] []
+            [36m.s.d.r.c.RepositoryConfigurationDelegate[m:Finished Spring Data repository scanning in 73 ms. Found 5 JPA repository interfaces.
+2024-02-20 19:54:29.818 [32m INFO[m [35m26028[m --- [           main] []
+            [36mo.s.b.w.e.t.TomcatWebServer             [m:Tomcat initialized with port 5001 (http)
+2024-02-20 19:54:29.843 [32m INFO[m [35m26028[m --- [           main] []
+            [36mo.a.c.h.Http11NioProtocol               [m:Initializing ProtocolHandler ["http-nio-5001"]
+2024-02-20 19:54:29.850 [32m INFO[m [35m26028[m --- [           main] []
+            [36mo.a.c.c.StandardService                 [m:Starting service [Tomcat]
+2024-02-20 19:54:29.850 [32m INFO[m [35m26028[m --- [           main] []
+            [36mo.a.c.c.StandardEngine                  [m:Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-02-20 19:54:29.912 [32m INFO[m [35m26028[m --- [           main] []
+            [36mo.a.c.c.C.[.[.[/]                       [m:Initializing Spring embedded WebApplicationContext
+2024-02-20 19:54:29.912 [32m INFO[m [35m26028[m --- [           main] []
+            [36mw.s.c.ServletWebServerApplicationContext[m:Root WebApplicationContext: initialization completed in 2462 ms
+2024-02-20 19:54:30.799 [32m INFO[m [35m26028[m --- [           main] []
+            [36mo.h.j.i.u.LogHelper                     [m:HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-20 19:54:30.972 [32m INFO[m [35m26028[m --- [           main] []
+            [36mo.h.Version                             [m:HHH000412: Hibernate ORM core version 6.3.1.Final
+2024-02-20 19:54:31.051 [32m INFO[m [35m26028[m --- [           main] []
+            [36mo.h.c.i.RegionFactoryInitiator          [m:HHH000026: Second-level cache disabled
+2024-02-20 19:54:31.192 [32m INFO[m [35m26028[m --- [           main] []
+            [36mc.z.h.HikariDataSource                  [m:HikariPool-1 - Starting...
+2024-02-20 19:54:31.477 [32m INFO[m [35m26028[m --- [           main] []
+            [36mc.z.h.p.HikariPool                      [m:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7846913f
+2024-02-20 19:54:31.477 [32m INFO[m [35m26028[m --- [           main] []
+            [36mc.z.h.HikariDataSource                  [m:HikariPool-1 - Start completed.
+2024-02-20 19:54:31.835 [32m INFO[m [35m26028[m --- [           main] []
+            [36mo.s.o.j.p.SpringPersistenceUnitInfo     [m:No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-20 19:54:32.862 [32m INFO[m [35m26028[m --- [           main] []
+            [36mo.h.e.t.j.p.i.JtaPlatformInitiator      [m:HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-20 19:54:32.972 [32m INFO[m [35m26028[m --- [           main] []
+            [36mj.LocalContainerEntityManagerFactoryBean[m:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-20 19:54:34.823 [32m INFO[m [35m26028[m --- [           main] []
+            [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [m:Adding welcome page: class path resource [static/index.html]
+2024-02-20 19:54:35.762 [33m WARN[m [35m26028[m --- [           main] []
+            [36mion$DefaultTemplateResolverConfiguration[m:Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-02-20 19:54:36.455 [32m INFO[m [35m26028[m --- [           main] []
+            [36mo.s.b.a.e.w.EndpointLinksResolver       [m:Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-02-20 19:54:36.643 [32m INFO[m [35m26028[m --- [           main] []
+            [36mo.a.c.h.Http11NioProtocol               [m:Starting ProtocolHandler ["http-nio-5001"]
+2024-02-20 19:54:36.672 [33m WARN[m [35m26028[m --- [           main] []
+            [36mConfigServletWebServerApplicationContext[m:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-02-20 19:54:36.677 [32m INFO[m [35m26028[m --- [           main] []
+            [36mj.LocalContainerEntityManagerFactoryBean[m:Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-20 19:54:36.737 [32m INFO[m [35m26028[m --- [           main] []
+            [36mc.z.h.HikariDataSource                  [m:HikariPool-1 - Shutdown initiated...
+2024-02-20 19:54:36.744 [32m INFO[m [35m26028[m --- [           main] []
+            [36mc.z.h.HikariDataSource                  [m:HikariPool-1 - Shutdown completed.
+2024-02-20 19:54:36.777 [32m INFO[m [35m26028[m --- [           main] []
+            [36m.s.b.a.l.ConditionEvaluationReportLogger[m:
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-02-20 19:54:36.838 [31mERROR[m [35m26028[m --- [           main] []
+            [36mo.s.b.d.LoggingFailureAnalysisReporter  [m:
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 5001 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 5001 or configure this application to listen on another port.
+
+2024-02-20 19:55:04.883 [32m INFO[m [35m14768[m --- [           main] []
+            [36mj.v.b.BackendApplication                [m:Starting BackendApplication v0.0.1-SNAPSHOT using Java 17.0.10 with PID 14768 (C:\Users\USER\Desktop\joouu-main\bin\backend-0.0.1-SNAPSHOT.jar started by USER in C:\Users\USER\Desktop\joouu-main\bin)
+2024-02-20 19:55:04.895 [32m INFO[m [35m14768[m --- [           main] []
+            [36mj.v.b.BackendApplication                [m:No active profile set, falling back to 1 default profile: "default"
+2024-02-20 19:55:05.938 [32m INFO[m [35m14768[m --- [           main] []
+            [36m.s.d.r.c.RepositoryConfigurationDelegate[m:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-20 19:55:06.049 [32m INFO[m [35m14768[m --- [           main] []
+            [36m.s.d.r.c.RepositoryConfigurationDelegate[m:Finished Spring Data repository scanning in 99 ms. Found 5 JPA repository interfaces.
+2024-02-20 19:55:07.466 [32m INFO[m [35m14768[m --- [           main] []
+            [36mo.s.b.w.e.t.TomcatWebServer             [m:Tomcat initialized with port 5001 (http)
+2024-02-20 19:55:07.482 [32m INFO[m [35m14768[m --- [           main] []
+            [36mo.a.c.h.Http11NioProtocol               [m:Initializing ProtocolHandler ["http-nio-5001"]
+2024-02-20 19:55:07.492 [32m INFO[m [35m14768[m --- [           main] []
+            [36mo.a.c.c.StandardService                 [m:Starting service [Tomcat]
+2024-02-20 19:55:07.492 [32m INFO[m [35m14768[m --- [           main] []
+            [36mo.a.c.c.StandardEngine                  [m:Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-02-20 19:55:07.595 [32m INFO[m [35m14768[m --- [           main] []
+            [36mo.a.c.c.C.[.[.[/]                       [m:Initializing Spring embedded WebApplicationContext
+2024-02-20 19:55:07.595 [32m INFO[m [35m14768[m --- [           main] []
+            [36mw.s.c.ServletWebServerApplicationContext[m:Root WebApplicationContext: initialization completed in 2596 ms
+2024-02-20 19:55:08.471 [32m INFO[m [35m14768[m --- [           main] []
+            [36mo.h.j.i.u.LogHelper                     [m:HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-20 19:55:08.597 [32m INFO[m [35m14768[m --- [           main] []
+            [36mo.h.Version                             [m:HHH000412: Hibernate ORM core version 6.3.1.Final
+2024-02-20 19:55:08.676 [32m INFO[m [35m14768[m --- [           main] []
+            [36mo.h.c.i.RegionFactoryInitiator          [m:HHH000026: Second-level cache disabled
+2024-02-20 19:55:08.976 [32m INFO[m [35m14768[m --- [           main] []
+            [36mc.z.h.HikariDataSource                  [m:HikariPool-1 - Starting...
+2024-02-20 19:55:09.218 [32m INFO[m [35m14768[m --- [           main] []
+            [36mc.z.h.p.HikariPool                      [m:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@401b67a9
+2024-02-20 19:55:09.228 [32m INFO[m [35m14768[m --- [           main] []
+            [36mc.z.h.HikariDataSource                  [m:HikariPool-1 - Start completed.
+2024-02-20 19:55:09.482 [32m INFO[m [35m14768[m --- [           main] []
+            [36mo.s.o.j.p.SpringPersistenceUnitInfo     [m:No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-20 19:55:10.303 [32m INFO[m [35m14768[m --- [           main] []
+            [36mo.h.e.t.j.p.i.JtaPlatformInitiator      [m:HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-20 19:55:10.319 [33m WARN[m [35m14768[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-20 19:55:10.319 [33m WARN[m [35m14768[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"menu" �����̼� ����, �ǳʶ�
+2024-02-20 19:55:10.319 [33m WARN[m [35m14768[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-20 19:55:10.319 [33m WARN[m [35m14768[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"reservation" �����̼� ����, �ǳʶ�
+2024-02-20 19:55:10.319 [33m WARN[m [35m14768[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-20 19:55:10.319 [33m WARN[m [35m14768[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"reservation" �����̼� ����, �ǳʶ�
+2024-02-20 19:55:10.319 [33m WARN[m [35m14768[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-20 19:55:10.319 [33m WARN[m [35m14768[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"review" �����̼� ����, �ǳʶ�
+2024-02-20 19:55:10.319 [33m WARN[m [35m14768[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-20 19:55:10.319 [33m WARN[m [35m14768[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"menu" ���̺� ����, ������
+2024-02-20 19:55:10.319 [33m WARN[m [35m14768[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-20 19:55:10.319 [33m WARN[m [35m14768[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"reservation" ���̺� ����, ������
+2024-02-20 19:55:10.319 [33m WARN[m [35m14768[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-20 19:55:10.319 [33m WARN[m [35m14768[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"review" ���̺� ����, ������
+2024-02-20 19:55:10.334 [33m WARN[m [35m14768[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-20 19:55:10.334 [33m WARN[m [35m14768[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"shop" ���̺� ����, ������
+2024-02-20 19:55:10.334 [33m WARN[m [35m14768[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:SQL Warning Code: 0, SQLState: 00000
+2024-02-20 19:55:10.334 [33m WARN[m [35m14768[m --- [           main] []
+            [36mo.h.e.j.s.SqlExceptionHelper            [m:"user" ���̺� ����, ������
+2024-02-20 19:55:10.382 [32m INFO[m [35m14768[m --- [           main] []
+            [36mj.LocalContainerEntityManagerFactoryBean[m:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-20 19:55:12.047 [32m INFO[m [35m14768[m --- [           main] []
+            [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [m:Adding welcome page: class path resource [static/index.html]
+2024-02-20 19:55:12.935 [33m WARN[m [35m14768[m --- [           main] []
+            [36mion$DefaultTemplateResolverConfiguration[m:Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-02-20 19:55:13.599 [32m INFO[m [35m14768[m --- [           main] []
+            [36mo.s.b.a.e.w.EndpointLinksResolver       [m:Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-02-20 19:55:13.771 [32m INFO[m [35m14768[m --- [           main] []
+            [36mo.a.c.h.Http11NioProtocol               [m:Starting ProtocolHandler ["http-nio-5001"]
+2024-02-20 19:55:13.850 [32m INFO[m [35m14768[m --- [           main] []
+            [36mo.s.b.w.e.t.TomcatWebServer             [m:Tomcat started on port 5001 (http) with context path ''
+2024-02-20 19:55:13.866 [32m INFO[m [35m14768[m --- [           main] []
+            [36mj.v.b.BackendApplication                [m:Started BackendApplication in 9.604 seconds (process running for 10.557)
+2024-02-20 19:55:14.305 [32m INFO[m [35m14768[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop1_1_Ndcq.jpg
+2024-02-20 19:55:14.305 [32m INFO[m [35m14768[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop1_2_YPVM.jpg
+2024-02-20 19:55:14.336 [32m INFO[m [35m14768[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop2_1_xqut.png
+2024-02-20 19:55:14.336 [32m INFO[m [35m14768[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop2_2_Yxhu.png
+2024-02-20 19:55:14.336 [32m INFO[m [35m14768[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop3_1_O3mT.jpg
+2024-02-20 19:55:14.352 [32m INFO[m [35m14768[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop3_2_gpqs.jpg
+2024-02-20 19:55:14.352 [32m INFO[m [35m14768[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop4_1_pkcT.jpg
+2024-02-20 19:55:14.352 [32m INFO[m [35m14768[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_shop\shop4_2_ETd6.jpg
+2024-02-20 19:55:14.368 [32m INFO[m [35m14768[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu1_lnN8.jpg
+2024-02-20 19:55:14.431 [32m INFO[m [35m14768[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu2_sdab.jpg
+2024-02-20 19:55:14.431 [32m INFO[m [35m14768[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu3_s77L.jpg
+2024-02-20 19:55:14.431 [32m INFO[m [35m14768[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu4_N28p.jpg
+2024-02-20 19:55:14.446 [32m INFO[m [35m14768[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu5_BiTO.png
+2024-02-20 19:55:14.446 [32m INFO[m [35m14768[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu6_h5bO.jpg
+2024-02-20 19:55:14.462 [32m INFO[m [35m14768[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu7_QjXt.jpg
+2024-02-20 19:55:14.462 [32m INFO[m [35m14768[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu8_YJjk.jpg
+2024-02-20 19:55:14.478 [32m INFO[m [35m14768[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu9_6Pk4.jpg
+2024-02-20 19:55:14.478 [32m INFO[m [35m14768[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu10_Sqxu.jpg
+2024-02-20 19:55:14.493 [32m INFO[m [35m14768[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu11_cjXx.jpg
+2024-02-20 19:55:14.493 [32m INFO[m [35m14768[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_menu\menu12_74oK.jpg
+2024-02-20 19:55:14.509 [32m INFO[m [35m14768[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_review\review1_b1ji.jpg
+2024-02-20 19:55:14.525 [32m INFO[m [35m14768[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_review\review2_Uxkx.jpg
+2024-02-20 19:55:14.525 [32m INFO[m [35m14768[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_review\review3_hvy4.jpg
+2024-02-20 19:55:14.541 [32m INFO[m [35m14768[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_review\review4_l40o.jpg
+2024-02-20 19:55:14.556 [32m INFO[m [35m14768[m --- [           main] []
+            [36mj.v.b.s.FileUploadService               [m:File store success. C:\Users\USER\Desktop\joouu-main\bin\images\_review\review5_ZFbl.jpg
+2024-02-20 19:55:22.253 [32m INFO[m [35m14768[m --- [nio-5001-exec-1] []
+            [36mo.a.c.c.C.[.[.[/]                       [m:Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-20 19:55:22.253 [32m INFO[m [35m14768[m --- [nio-5001-exec-1] []
+            [36mo.s.w.s.DispatcherServlet               [m:Initializing Servlet 'dispatcherServlet'
+2024-02-20 19:55:22.253 [32m INFO[m [35m14768[m --- [nio-5001-exec-1] []
+            [36mo.s.w.s.DispatcherServlet               [m:Completed initialization in 0 ms
+2024-02-20 19:55:36.083 [32m INFO[m [35m14768[m --- [nio-5001-exec-5] []
+            [36mj.v.b.c.LoginController                 [m:login success user. UserInfo(id=4, userId=cyjj7513, role=USER, ip=0:0:0:0:0:0:0:1)
