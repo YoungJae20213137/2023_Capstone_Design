@@ -1,0 +1,17 @@
+### 로그인 토큰 발급
+POST {{hostname}}/login
+content-type: application/json
+
+{
+  "userId": "admin",
+  "password": "1234"
+}
+
+### 회원가입
+POST {{hostname}}/signup
+content-type: application/json
+
+{
+  "userId": "admin1",
+  "password": "1234"
+}

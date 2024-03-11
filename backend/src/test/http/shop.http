@@ -1,0 +1,78 @@
+### 음식점 목록 조회
+GET {{hostname}}/api/shop
+Authorization: Bearer {{tokenAdmin}}
+Accept: application/json
+
+### 음식점 상세 조회
+GET {{hostname}}/api/shop/1
+Authorization: Bearer {{tokenAdmin}}
+Accept: application/json
+
+### 음식점 메뉴 조회
+GET {{hostname}}/api/shop/1/menu
+Authorization: Bearer {{tokenAdmin}}
+Accept: application/json
+
+### 음식점 메뉴 카운트
+GET {{hostname}}/api/shop/1/menu/count
+Authorization: Bearer {{tokenAdmin}}
+Accept: application/json
+
+### 음식점 추가
+POST {{hostname}}/api/shop
+Authorization: Bearer {{tokenAdmin}}
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="image1"; filename="food1.png"
+Content-Type: image/png
+
+< C:\Users\shampoo\Downloads\food1.png
+
+--WebAppBoundary
+Content-Disposition: form-data; name="data"
+Content-Type: application/json
+
+{
+  "name": "순대국밥 집",
+  "rating": 5.0,
+  "phoneNumber": "010-9999-0000",
+  "address":"판교",
+  "latitude":"1.0",
+  "longitude":"1.0",
+  "tags": "다이어트;안주",
+  "times":["10:00","22:00"],
+  "description":"최고의 맛"
+}
+
+### 음식점 수정
+PUT {{hostname}}/api/shop/1
+Authorization: Bearer {{tokenAdmin}}
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="image1"; filename="food2.jpg"
+Content-Type: image/png
+
+< C:\Users\shampoo\Downloads\food2.jpg
+
+--WebAppBoundary
+Content-Disposition: form-data; name="data"
+Content-Type: application/json
+
+{
+  "name": "순대국밥 집2",
+  "rating": 5.0,
+  "phoneNumber": "010-9999-0000",
+  "address":"판교",
+  "latitude":"1.0",
+  "longitude":"1.0",
+  "tags": "다이어트;안주",
+  "times":["10:00","22:00"],
+  "description":"최고의 맛"
+}
+
+### 음식점 삭제
+DELETE {{hostname}}/api/shop/1
+Authorization: Bearer {{tokenAdmin}}
+content-type: application/json

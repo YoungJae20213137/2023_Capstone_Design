@@ -1,0 +1,60 @@
+### 메뉴 목록 조회
+GET {{hostname}}/api/menu
+Authorization: Bearer {{tokenAdmin}}
+Accept: application/json
+
+### 메뉴 상세 조회
+GET {{hostname}}/api/menu/1
+Authorization: Bearer {{tokenAdmin}}
+Accept: application/json
+
+### 메뉴 추가
+POST {{hostname}}/api/menu
+Authorization: Bearer {{tokenAdmin}}
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="image1"; filename="food1.png"
+Content-Type: image/png
+
+< C:\Users\shampoo\Downloads\food1.png
+
+--WebAppBoundary
+Content-Disposition: form-data; name="data"
+Content-Type: application/json
+
+{
+  "shopId": 1,
+  "name": "순대국밥",
+  "price": 1500,
+  "description": "최고의 맛!",
+  "categories": { "vegan":  true, "flexitarian":  false}
+}
+
+### 메뉴 수정
+PUT {{hostname}}/api/menu/1
+Authorization: Bearer {{tokenAdmin}}
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="image1"; filename="food2.jpg"
+Content-Type: image/png
+
+< C:\Users\shampoo\Downloads\food2.jpg
+
+--WebAppBoundary
+Content-Disposition: form-data; name="data"
+Content-Type: application/json
+
+{
+  "shopId": 1,
+  "name": "순대국밥 2",
+  "price": 1500,
+  "description": "최고의 맛!",
+  "categories": { "vegan":  true, "flexitarian":  true}
+}
+
+### 메뉴 삭제
+DELETE {{hostname}}/api/menu/1
+Authorization: Bearer {{tokenAdmin}}
+content-type: application/json

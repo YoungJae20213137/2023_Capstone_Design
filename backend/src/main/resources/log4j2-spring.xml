@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration packages="ji.vegan.backend">
+    <Properties>
+        <Property name="LOG_FILE_NORMAL">backend.log</Property>
+
+        <Property name="LOG_PATTERN">
+            %d{yyyy-MM-dd HH:mm:ss.SSS} %highlight{${LOG_LEVEL_PATTERN:-%5p}}{FATAL=red, ERROR=red, WARN=yellow,
+            INFO=green, DEBUG=green, TRACE=green} %style{${sys:PID}}{magenta} --- [%15.15t] [%marker]
+            %style{%-40.40c{1.}}{cyan}:%m%n%ex
+        </Property>
+        <!-- application name -->
+        <Property name="project.application.name">backend</Property>
+    </Properties>
+
+
+    <Appenders>
+        <RollingFile name="APPENDER_NORMAL"
+                     fileName="${LOG_FILE_NORMAL}"
+                     filePattern="${LOG_FILE_NORMAL}.%d{yyyy-MM-dd}.%i.gz">
+            <PatternLayout disableAnsi="false" pattern="${LOG_PATTERN}"/>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="10"/>
+        </RollingFile>
+
+        <Console name="APPENDER_CONSOLE" target="SYSTEM_OUT">
+            <!--<PatternLayout pattern="[%X{traceId},%X{spanId},%X{clientIp}]%d %5p [%c] %m%n"/>-->
+            <PatternLayout disableAnsi="false" pattern="${LOG_PATTERN}"/>
+            <Filters>
+                <MarkerFilter marker="server-info" onMatch="DENY" onMismatch="NEUTRAL"/>
+            </Filters>
+        </Console>
+    </Appenders>
+
+    <Loggers>
+        <Root level="INFO">
+            <AppenderRef ref="APPENDER_CONSOLE"/>
+            <AppenderRef ref="APPENDER_NORMAL"/>
+        </Root>
+
+    </Loggers>
+</Configuration>

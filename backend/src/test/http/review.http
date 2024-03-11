@@ -1,0 +1,60 @@
+### 리뷰 목록 조회
+GET {{hostname}}/api/review
+Authorization: Bearer {{tokenAdmin}}
+Accept: application/json
+
+### 리뷰 상세 조회
+GET {{hostname}}/api/review/1
+Authorization: Bearer {{tokenAdmin}}
+Accept: application/json
+
+### 리뷰 추가
+POST {{hostname}}/api/review
+Authorization: Bearer {{tokenAdmin}}
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="image1"; filename="food1.png"
+Content-Type: image/png
+
+< C:\Users\shampoo\Downloads\food1.png
+
+--WebAppBoundary
+Content-Disposition: form-data; name="data"
+Content-Type: application/json
+
+{
+  "shopId": 1,
+  "content": "순대국밥 최고야",
+  "rating": "4.85",
+  "advantages": ["음식이 맛있어요" ,"친절해요","재료가 신선해요","혼밥하기 좋아요" ],
+  "disadvantage": ["더러워요", "불친절해요"]
+}
+
+### 리뷰 수정
+PUT {{hostname}}/api/review/1
+Authorization: Bearer {{tokenAdmin}}
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="image1"; filename="food2.jpg"
+Content-Type: image/png
+
+< C:\Users\shampoo\Downloads\food2.jpg
+
+--WebAppBoundary
+Content-Disposition: form-data; name="data"
+Content-Type: application/json
+
+{
+  "shopId": 1,
+  "content": "순대국밥 최고야",
+  "rating": "4.15",
+  "advantages": ["음식이 맛있어요" ,"친절해요","재료가 신선해요","혼밥하기 좋아요" ],
+  "disadvantage": ["더러워요", "불친절해요"]
+}
+
+### 리뷰 삭제
+DELETE {{hostname}}/api/review/1
+Authorization: Bearer {{tokenAdmin}}
+content-type: application/json

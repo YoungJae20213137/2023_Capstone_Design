@@ -1,0 +1,34 @@
+### 사용자 목록 조회
+GET {{hostname}}/api/user
+Authorization: Bearer {{tokenAdmin}}
+Accept: application/json
+
+### 사용자 상세 조회
+GET {{hostname}}/api/user/1
+Authorization: Bearer {{tokenAdmin}}
+Accept: application/json
+
+### 사용자 추가 (user)
+POST {{hostname}}/api/user
+Authorization: Bearer {{tokenAdmin}}
+Content-Type: application/json
+
+{
+  "userId": "user1",
+  "password": "1234",
+  "role": "USER"
+}
+
+### 사용자 수정
+PUT {{hostname}}/api/user/1
+Authorization: Bearer {{tokenAdmin}}
+Content-Type: application/json
+
+{
+  "password": "4321"
+}
+
+### 사용자 삭제
+DELETE {{hostname}}/api/user/1
+Authorization: Bearer {{tokenAdmin}}
+content-type: application/json

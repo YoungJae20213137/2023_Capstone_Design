@@ -1,0 +1,35 @@
+server:
+  port: 5001
+  servlet:
+    encoding:
+      enabled: true
+      charset: UTF-8
+      force: true
+  error:
+    whitelabel:
+      enabled: false
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres?charSet=UTF8&currentSchema=public
+    username: postgres
+    password: 1111
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    show-sql: false
+    open-in-view: false
+    generate-ddl: false
+    hibernate:
+      ddl-auto: create-drop
+
+  web:
+    resources:
+      static-locations: ${user.dir}/images/**,classpath:/static
+
+logging:
+  config: classpath:log4j2-spring.xml
+
+custom-config:
+  sign-key: 40B79FD858EA8AC5B425065A1FA56E1147637CFF91BEAB5048D3F410E95703C0
+  file-root-path: ${user.dir}/images/
